@@ -4,4 +4,24 @@
 
   /* Make the invisible visible */
   border: thin red solid;
+  height: 400
+
+}
+
+.grey{
+  height: 200px;
+  width: 1400px;
+  text-align: left;
+  float: left;
+  background-color: gray;
+}
+
+.button{
+  color: white;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  padding: 7px;
+  border-radius:45px;
+  background-color: blue;
 }
