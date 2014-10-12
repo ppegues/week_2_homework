@@ -10,18 +10,37 @@
 
 .grey{
   height: 200px;
-  width: 1400px;
+  width: auto;
   text-align: left;
-  float: left;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .button{
   color: white;
   text-align: center;
   height: 40px;
-  width: 100px;
-  padding: 7px;
+  width: 130px;
+  padding: 4px;
   border-radius:45px;
   background-color: blue;
+  float: left;
+}
+
+.rows {
+  clear: both;
+}
+
+.one-fourth {
+  float: left;
+  width: 25%;
+}
+
+.one-third {
+  float: left;
+  width: 33%;
+}
+
+.two-third{
+  float: left;
+  width: 66%;
 }
